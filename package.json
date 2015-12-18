@@ -1,11 +1,11 @@
 {
   "name": "jsonresume-theme-flat-yi",
   "version": "0.3.7",
-  "description": "A theme for JSON Resume",
-  "author": "Mattias Erming",
+  "description": "A theme for JSON Resume, modified by Yi Tseng",
+  "author": "Yi Tseng",
   "repository": {
     "type": "git",
-    "url": "http://github.com/erming/jsonresume-theme-flat-yi"
+    "url": "http://github.com/TakeshiTseng/jsonresume-theme-flat-yi"
   },
   "scripts": {
     "start": "resume serve"
