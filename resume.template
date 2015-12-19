@@ -373,6 +373,13 @@
               {{.}}
             </div>
             {{/summary}}
+            {{#if techniques.length}}
+            <ul class="techniques">
+              {{#techniques}}
+              <li>{{.}}</li>
+              {{/techniques}}
+            </ul>
+            {{/if}}
           </div>
           {{/each}}
         </div>
