@@ -75,7 +75,7 @@
       </aside>
       <div class="col-sm-9">
         {{#summary}}
-        <p>{{.}}</p>
+        <p>{{{.}}}</p>
         {{/summary}}
       </div>
     </section>
