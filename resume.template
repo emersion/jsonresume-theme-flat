@@ -145,7 +145,7 @@
             {{/position}}
             {{#summary}}
             <div class="summary">
-              <p>{{.}}</p>
+              <p>{{{.}}}</p>
             </div>
             {{/summary}}
             {{#if highlights.length}}
