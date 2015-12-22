@@ -370,7 +370,7 @@
             {{/url}}
             {{#summary}}
             <div class="summary">
-              {{.}}
+              {{{.}}}
             </div>
             {{/summary}}
             {{#if techniques.length}}
