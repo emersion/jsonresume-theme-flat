@@ -49,9 +49,17 @@
           {{#email}}
           <div class="col-sm-6">
             <strong>Email</strong>
-            <div class="email">{{.}}</div>
+            <div class="email">
+              <a href="mailto:{{.}}">{{.}}</a>
+            </div>
           </div>
           {{/email}}
+          {{#phone}}
+          <div class="col-sm-6">
+            <strong>Phone</strong>
+            <div class="phone">{{.}}</div>
+          </div>
+          {{/phone}}
           {{#website}}
           <div class="col-sm-6">
             <strong>Website</strong>
@@ -63,16 +71,16 @@
         </div>
       </div>
     </section>
+    {{#summary}}
     <section id="about" class="row">
       <aside class="col-sm-3">
         <h3>About</h3>
       </aside>
       <div class="col-sm-9">
-        {{#summary}}
         <p>{{{.}}}</p>
-        {{/summary}}
       </div>
     </section>
+    {{/summary}}
     {{#if profiles.length}}
     <section id="profiles" class="row">
       <aside class="col-sm-3">
@@ -358,7 +366,6 @@
 
             {{#url}}
             <div class="project-url">
-              <em>Url : </em>
               <strong><a href="{{.}}">{{.}}</a></strong>
             </div>
             {{/url}}
